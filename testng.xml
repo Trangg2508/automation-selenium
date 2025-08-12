@@ -2,7 +2,7 @@
 <suite name="Selenium Test Suite" verbose="1">
     <test name="Login Test">
         <classes>
-            <class name="java.tests.LoginTest"/>
+            <class name="tests.LoginTest"/>
         </classes>
     </test>
 </suite>

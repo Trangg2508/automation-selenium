@@ -6,11 +6,13 @@ import java.util.Properties;
 
 
 /* This Class to read file config.properties */
+
 public class ConfigReader {
-    private static Properties properties = new Properties();
+    private static Properties properties;
 
     static {
         try {
+            properties = new Properties();
             FileInputStream fis = new FileInputStream("src/main/resources/config.properties");
             properties.load(fis);
         } catch (IOException e) {

@@ -1,4 +1,4 @@
-package java.tests;
+package web.tests;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -16,7 +16,6 @@ public class BaseTest {
         if (browser.equalsIgnoreCase("chrome")) {
             driver = new ChromeDriver();
         }
-        // Có thể bổ sung Firefox, Edge sau
 
         driver.manage().window().maximize();
         driver.get(ConfigReader.getProperty("baseUrl"));

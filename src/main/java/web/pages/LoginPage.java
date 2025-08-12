@@ -3,7 +3,7 @@ package web.pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class LoginPage extends BasePage{
+public class LoginPage extends BasePage {
 
     // Locators
     private By usernameField = By.id("username");
@@ -21,5 +21,4 @@ public class LoginPage extends BasePage{
         input(passwordField, password);
         click(submitButton);
     }
-
 }
