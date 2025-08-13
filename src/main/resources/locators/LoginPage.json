@@ -1,0 +1,6 @@
+{
+  "usernameTextbox": "//input[@id='username']",
+  "passwordTextbox": "//input[@id='password']",
+  "loginButton": "//button[@id='submit']",
+  "welcomeText": "////h1[@class='post-title']"
+}
